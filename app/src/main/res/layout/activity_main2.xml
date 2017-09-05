@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_backgroudn"
+    android:orientation="vertical"
+    tools:context="com.example.android.indonesiaqu.Main2Activity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="225dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/what"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        tools:targetApi="JELLY_BEAN" />
+
+    <RadioGroup
+        android:id="@+id/grupRadio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/jawa"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:targetApi="JELLY_BEAN" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/kalimantan"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:targetApi="JELLY_BEAN" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/bali"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:targetApi="JELLY_BEAN" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/sumatera"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:targetApi="JELLY_BEAN" />
+    </RadioGroup>
+
+</LinearLayout>

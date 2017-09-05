@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IndonesiaQue</string>
+    <!--Number Quiz 1-->
+    <string name="where">Where Is Indonesia Located?</string>
+    <string name="indianpacific">Between The Indian And Pacific Oceans"</string>
+    <string name="indianatlantic">Between The Indian And Atlantic Oceans</string>
+    <string name="americaatlantic">Between The America And Atlantic Oceans</string>
+    <string name="africaatlantic">Between The Africa And Atlantic Oceans</string>
+    <!--Number Quiz 2-->
+    <string name="what">What Is The Biggest Island In Indonesia?</string>
+    <string name="jawa">Jawa</string>
+    <string name="kalimantan">Kalimantan</string>
+    <string name="bali">Bali</string>
+    <string name="sumatera">Sumatera</string>
+    <!--Number Quiz 3-->
+    <string name="which">Which Is The Capital City Of Indonesia?</string>
+    <string name="bandung">Bandung</string>
+    <string name="surabaya">Surabaya</string>
+    <string name="yogyakarta">Yogyakarta</string>
+    <string name="jakarta">Jakarta</string>
+    <!--Number 4 Quiz-->
+    <string name="food">"The World Best 50 Food Is From Indonesia,Which Food?"</string>
+    <string name="rendang">Rendang</string>
+    <string name="kerak">Kerak Telor</string>
+    <string name="gudeg">Gudeg</string>
+    <string name="baso">Baso</string>
+    <!--Number 5 Quiz-->
+    <string name="pancasila">Pancasila</string>
+    <string name="nothing">Nothing</string>
+    <string name="bhineka">Bhineka Tunggal Ika</string>
+    <string name="garuda">Garuda</string>
+    <string name="moto">What Is Motto Of Indonesia?</string>
+</resources>
